@@ -266,7 +266,7 @@ ul#gallery-list li {
 
 .img-title{
 	position:relative;
-	background:#fff;
+	background:#2f343a;
 	height:46px;
 	width:100%;
 	overflow:hidden;
@@ -730,7 +730,7 @@ ul.listForm textarea.form-control{
 }
 
 .location{
-	background:url(../img/contact-img-small.png) no-repeat bottom right;
+	/* background:url(../img/contact-img-small.png) no-repeat bottom right;  */
 	float:right;
 	width:400px;
 	height:420px;

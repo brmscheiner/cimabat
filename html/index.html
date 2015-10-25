@@ -1,3 +1,11 @@
+<!-- to do:
+- add Cimabat to Google Maps
+- get gallery text working 
+- take Cimabat frontpage image 
+- confirm twitter email 
+- do you also install tile/kitchens/etc?
+-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -22,11 +30,8 @@
 	<![endif]-->
 	<link href="css/font-awesome-set.css" rel="stylesheet">
 
-    <!-- cslider style -->
-    <link href="css/cslider.css" rel="stylesheet">
-	<noscript>
-		<link rel="stylesheet" type="text/css" href="css/nojs.css" />
-	</noscript>	
+    <!-- flexslider style -->
+    <link href="css/flexslider.css" rel="stylesheet">
 
     <!-- prettyPhoto style -->
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -47,276 +52,311 @@
 	<![endif]-->	
   </head>
   <body>
-	<!-- Start home -->
-	<section id="home" class="bgslider-wrapper">
-		<div id="animated-bg">
-			<div id="animated-bg1" class="bg-slider"></div>
-			<div id="animated-bg2" class="bg-slider"></div>
-			<div id="animated-bg3" class="bg-slider"></div>
-		</div>
-		<div class="home-contain">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<a href="#home" class="logo"><img src="img/logo.jpg" alt="" /></a>
-					</div>	
-					<div class="col-lg-8 col-lg-offset-2">
-						<div id="da-slider" class="da-slider">
-							<div class="da-slide">
-								<p>Trusted experts in home construction and home improvement</p><!-- 
-								<p>Clita perpetua pri et, in vis suas invenire definitionem, te eam erant soleat. Eu vis assum movet, duo quis eirmod periculis ut, et has nominavi tincidunt ullamcorper. No erat dicat vis. Sea an apeirian inciderint quo id dico agam cotidieque.</p> -->
-							</div>
-							<div class="da-slide">
-								<p>Serving Bamako since 2007</p>
-<!-- 								<p>Porro facilis id vis, omnis reque corpora at ius. Veri ubique oportere duo ea, vix sale ferri percipitur te, vix ut aliquid quaestio appellantur. Eu munere indoctum definitiones sit. Virtute inimicus quo ea. In mei facete deleniti constituam.</p> -->
-							</div>
-							<div class="da-slide">
-								<h2>Jacuzzis</h2><!-- 
-								<p>Quo autem complectitur an, porro commodo impedit in nec. Eam facer elaboraret ea, ad eos nullam consulatu maiestatis. Eum mazim simul ne, dicta mnesarchum duo no, ex nec graece verear. Quodsi mentitum iudicabit ut vel, nam suscipiantur</p> -->
-							</div>
-							<div class="da-slide">
-								<h2>Showers</h2><!-- 
-								<p>Odio appellantur vis te, meliore senserit vis et, cu facer voluptua euripidis sed. Ut aliquam accommodare eos, no qui legere vituperatoribus, ludus vocent nec an. Aperiam philosophia et vis, etiam  electram ex pro, dicit decore no quo</p> -->
-							</div>
-							<nav class="da-arrows">
-								<span class="da-arrows-prev"></span>
-								<span class="da-arrows-next"></span>
-							</nav>
-						</div>
-					</div>					
-				</div>	
-			</div>	
-		</div>
-	</section>
-	<!-- End home -->
 	<div class="clearfix"></div>
 	<!-- Header -->
 	<header>
 		<div class="navbar">
 			<div class="container">
-				<a class="navbar-brand" href="index.html"><img src="img/small-logo.jpg" alt="" /></a>
+				<a class="navbar-brand" href="#about"><img src="img/mali_flag_med.png" alt="" /></a>
 				<div class="nav-collapse collapse navbar-responsive-collapse">
 					<ul class="nav navbar-nav">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#feature">Featured</a></li>
-						<li><a href="#gallery">Gallery</a></li>
-						<li><a href="#ourteam">Meet the team</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#gallery">Product Gallery</a></li>
 						<li><a href="#contact">Contact</a></li>	
 					</ul>
 				</div><!-- End nav-collapse -->
-				<div class="nav-right"><a href="#" class="btn btn-red">Download for free</a></div>
+				<div class="nav-right"><a href="#" class="btn btn-red">Changer de Bambara/Français</a></div>
 			</div><!-- End container -->
 		</div><!-- End navbar -->
 	</header>
 	<!-- End header -->
-
-	<!-- Start gallery -->
-	<section id="gallery">
+	
+	<!-- Start about -->
+	<section id="about">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12">
-						<h3 class="heading">Product Gallery</h3>
-						<div id="filter-bar">
-							<ul id="filters" class="option-set">
-								<li><a href="#" class="selected" data-filter=".all">All</a></li>
-								<li><a href="#" data-filter=".interface">Jacuzzis</a></li>
-								<li><a href="#" data-filter=".print">Print</a></li>
-								<li><a href="#" data-filter=".illustration">Illustration</a></li>
-								<li><a href="#" data-filter=".branding">Branding</a></li>
-							</ul>
-						</div>					
-					</div>
-				
-					  <ul id="gallery-list" class="clearfix">
-							<li class="all jacuzzi">				
-								<div class="image-wrapper">	
-									<img src="img/gallery/jacuzzi1.jpg" class="img-responsive" alt=""/>
-								</div>
-								<div class="img-title">
-									<h6><a href="detail.html">Velit dissentiunt an ius</a></h6>
-									<a href="img/gallery/big.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
-								</div>
-							</li>
-							<li class="item col-lg-4 all branding">
-								<div class="image-wrapper">	
-									<img src="img/gallery/img4.jpg" class="img-responsive" alt=""/>
-								</div>
-								<div class="img-title">
-									<h6><a href="detail.html">Admodum accommodare qui</a></h6>
-									<a href="img/gallery/big.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
-								</div>							
-							</li>								<li class="all jacuzzi">
-								<div class="image-wrapper">	
-									<img src="img/gallery/jacuzzi2.jpg" class="img-responsive" alt=""/>
-								</div>	
-								<div class="img-title">
-									<h6><a href="detail.html">Cu viris audire volumus</a></h6>
-									<a href="img/gallery/big.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
-								</div>							
-							</li>
-							<li class="all jacuzzi">
-								<div class="image-wrapper">	
-									<img src="img/gallery/jacuzzi3.jpg" class="img-responsive" alt=""/>
-								</div>
-								<div class="img-title">
-									<h6><a href="detail.html">Eros laudem omittantur</a></h6>
-									<a href="img/gallery/big.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
-								</div>							
-							</li>
-							<li class="item col-lg-4 all print">
-								<div class="image-wrapper">	
-									<img src="img/gallery/img5.jpg" class="img-responsive" alt=""/>
-								</div>
-								<div class="img-title">
-									<h6><a href="detail.html">His diceret senserit ne</a></h6>
-									<a href="img/gallery/big.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
-								</div>							
-							</li>
-							<li class="item col-lg-4 all illustration">
-								<div class="image-wrapper">	
-									<img src="img/gallery/img6.jpg" class="img-responsive" alt=""/>
-								</div>		
-								<div class="img-title">
-									<h6><a href="detail.html">Consequuntur sed ne</a></h6>
-									<a href="img/gallery/big.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
-								</div>							
-							</li>
-							<li class="item col-lg-4 all illustration">
-								<div class="image-wrapper">	
-									<img src="img/gallery/img7.jpg" class="img-responsive" alt=""/>
-								</div>		
-								<div class="img-title">
-									<h6><a href="detail.html">Scripta habemus dolores</a></h6>
-									<a href="img/gallery/big.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
-								</div>							
-							</li>
-							<li class="item col-lg-4 all branding">
-								<div class="image-wrapper">	
-									<img src="img/gallery/img8.jpg" class="img-responsive" alt=""/>
-								</div>		
-								<div class="img-title">
-									<h6><a href="detail.html">Erroribus corrumpit</a></h6>
-									<a href="img/gallery/big.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
-								</div>							
-							</li>	
-							<li class="item col-lg-4 all interface">
-								<div class="image-wrapper">	
-									<img src="img/gallery/img9.jpg" class="img-responsive" alt=""/>
-								</div> 
-								<div class="img-title">
-									<h6><a href="detail.html">Nam dolore sapientem</a></h6>
-									<a href="img/gallery/big.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
-								</div>							
-							</li>					
-						</ul>			
-				</div>							
-			</div>		
-	</section>
-	<!-- End gallery -->	
-
-	<!-- Start ourteam -->
-	<section id="ourteam">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2">
-						<h3 class="heading text-center">Meet our team</h3>
-						<ul class="ticker testimoni">
-							<li>
-								<a href="#"><img src="img/testimoni/fanta.jpg" class="testimo-avatar" alt="" /></a>
-								<p>
-								Fanta Diane
-								</p>
-								<p class="testimoni-info">Top dog</p>
-							</li>
-							<li>
-								<a href="#"><img src="img/testimoni/avatar2.jpg" class="testimo-avatar" alt="" /></a>
-								<p>
-								Porro facilis id vis, omnis reque corpora at ius. Veri ubique oportere duo ea, vix sale ferri percipitur te, vix ut aliquid quaestio appellantur. Eu munere indoctum definitiones sit. Virtute inimicus quo ea. In mei facete deleniti constituam.
-								</p>
-								<p class="testimoni-info">Iyem pariem - <a href="#">DD designer</a></p>
-							</li>
-							<li>
-								<a href="#"><img src="img/testimoni/avatar3.jpg" class="testimo-avatar" alt="" /></a>
-								<p>
-								Porro facilis id vis, omnis reque corpora at ius. Veri ubique oportere duo ea, vix sale ferri percipitur te, vix ut aliquid quaestio appellantur. Eu munere indoctum definitiones sit. Virtute inimicus quo ea. In mei facete deleniti constituam.
-								</p>
-								<p class="testimoni-info">Mas trisno - <a href="#">Trisno management</a></p>
-							</li>
-							<li>
-								<a href="#"><img src="img/testimoni/avatar4.jpg" class="testimo-avatar" alt="" /></a>
-								<p>
-								Porro facilis id vis, omnis reque corpora at ius. Veri ubique oportere duo ea, vix sale ferri percipitur te, vix ut aliquid quaestio appellantur. Eu munere indoctum definitiones sit. Virtute inimicus quo ea. In mei facete deleniti constituam.
-								</p>
-								<p class="testimoni-info">Neng ebrod - <a href="#">Ebrod company</a></p>
-							</li>								
-						</ul>							
-					</div>							
+					<div class="col-lg-5">
+<!-- 						<h3 class="heading">Cimabat</h3> -->
+						<img src="img/logo.png" class="img-responsive" alt="CIMABAT">
+						<p>
+						<h5>Our products and services:</h5>
+						- Kitchens <br />
+						- Tile <br />
+						- Sinks <br />
+						- Roofing <br />
+						- Grills <br />
+						- Showers <br />
+						- Jacuzzis <br />
+						- <strong>Delivery service</strong>
+						</p>
+					</div>	
+					<div class="col-lg-7">
+						<img src="img/flat-img.png" class="img-responsive" alt="" />
+					</div>						
 				</div>	
 			</div>		
 	</section>
-	<!-- End ourteam -->
+	<!-- End about -->
 
 	<!-- Start action -->
 	<section id="action">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 aligncenter">
-					<h4>Give us a call!</h4>
+					<h4>Proudly serving Bamako since 2007</h4>
+					<h5>Trusted experts in home construction and home improvement</h5>
 					<p>
-					Erroribus corrumpit similique sed an. In hendrerit aliquando instructior mel paulo tritani. 
-					</p>	
-					<p><a href="http://themeforest.net/item/layapan-bootstrap-flat-and-responsive-landingpage/5457093" class="btn btn-lg btn-red">Buy it now only $11</a><p>
+					</p>
 				</div>
 			</div>
 		</div>				
 	</section>
 	<!-- End action -->
 	
+	<!-- Start gallery -->
+	<section id="gallery">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h3 class="heading">Product gallery</h3>
+						<div id="filter-bar">
+							<ul id="filters" class="option-set">
+								<li><a href="#" class="selected" data-filter=".all">All</a></li>
+								<li><a href="#" data-filter=".sinks">Sinks</a></li>
+								<li><a href="#" data-filter=".kitchens">Kitchens</a></li>
+								<li><a href="#" data-filter=".grills">Grills</a></li>
+								<li><a href="#" data-filter=".roofing">Roofing</a></li>
+								<li><a href="#" data-filter=".showers">Showers</a></li>
+								<li><a href="#" data-filter=".jacuzzis">Jacuzzis</a></li>
+							</ul>
+						</div>					
+					</div>
+				
+					  <ul id="gallery-list" class="clearfix">
+							<li class="item col-lg-4 all jacuzzis">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/jacuzzi1.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Jacuzzi 1</h6>
+									<a href="img/gallery/jacuzzi1.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>
+							<li class="item col-lg-4 all jacuzzis">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/jacuzzi2.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Jacuzzi 2</h6>
+									<a href="img/gallery/jacuzzi2.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>
+							<li class="item col-lg-4 all jacuzzis">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/jacuzzi3.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Jacuzzi 3</h6>
+									<a href="img/gallery/jacuzzi3.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>
+							<li class="item col-lg-4 all jacuzzis">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/jacuzzi4.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Jacuzzi 4</h6>
+									<a href="img/gallery/jacuzzi4.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>
+							<li class="item col-lg-4 all jacuzzis">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/jacuzzi5.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Jacuzzi 5</h6>
+									<a href="img/gallery/jacuzzi5.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>
+							<li class="item col-lg-4 all jacuzzis">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/jacuzzi6.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Jacuzzi 6</h6>
+									<a href="img/gallery/jacuzzi6.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>
+							<li class="item col-lg-4 all showers">
+								<div class="image-wrapper">	
+									<img src="img/gallery/shower1.jpg" class="img-responsive" alt=""/>
+								</div>	
+								<div class="img-title">
+									<h6>Shower 1</h6>
+									<a href="img/gallery/shower1.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>							
+							</li>	
+							<li class="item col-lg-4 all showers">
+								<div class="image-wrapper">	
+									<img src="img/gallery/shower2.jpg" class="img-responsive" alt=""/>
+								</div>	
+								<div class="img-title">
+									<h6>Shower 2</h6>
+									<a href="img/gallery/shower2.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>							
+							</li>			
+							<li class="item col-lg-4 all showers">
+								<div class="image-wrapper">	
+									<img src="img/gallery/shower3.jpg" class="img-responsive" alt=""/>
+								</div>	
+								<div class="img-title">
+									<h6>Shower 3</h6>
+									<a href="img/gallery/shower3.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>							
+							</li>		
+							<li class="item col-lg-4 all sinks">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/sink1.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Sink 1</h6>
+									<a href="img/gallery/sink1.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>
+							<li class="item col-lg-4 all sinks">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/sink2.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Sink 2</h6>
+									<a href="img/gallery/sink2.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>
+							<li class="item col-lg-4 all sinks">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/sink3.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Sink 3</h6>
+									<a href="img/gallery/sink3.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>
+							<li class="item col-lg-4 all sinks">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/sink4.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Sink 4</h6>
+									<a href="img/gallery/sink4.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>			
+							<li class="item col-lg-4 all sinks">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/sink5.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Sink 5</h6>
+									<a href="img/gallery/sink5_big.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>			
+							<li class="item col-lg-4 all roofing">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/roof.jpeg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Roofing</h6>
+									<a href="img/gallery/roof_big.jpeg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>		
+							<li class="item col-lg-4 all grills">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/grill.jpeg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Grill</h6>
+									<a href="img/gallery/grill.jpeg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>		
+							<li class="item col-lg-4 all kitchens">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/kitchen1.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Kitchen 1</h6>
+									<a href="img/gallery/kitchen1_big.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>		
+							<li class="item col-lg-4 all kitchens">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/kitchen2.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Kitchen 2</h6>
+									<a href="img/gallery/kitchen2_big.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>		
+							<li class="item col-lg-4 all kitchens">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/kitchen3.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Kitchen 3</h6>
+									<a href="img/gallery/kitchen3_big.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>		
+							<li class="item col-lg-4 all kitchens">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/kitchen4.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Kitchen 4</h6>
+									<a href="img/gallery/kitchen4_big.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>		
+							<li class="item col-lg-4 all kitchens">				
+								<div class="image-wrapper">	
+									<img src="img/gallery/kitchen5.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Kitchen 5</h6>
+									<a href="img/gallery/kitchen5_big.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>		
+						</ul>			
+				</div>							
+			</div>		
+	</section>
+	<!-- End gallery -->	
+
 	<!-- Start contact -->
 	<section id="contact">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-7">
-						<h3 class="heading">Contact us</h3>
-						<form id="contactform" action="contact/contact.php" method="post" class="validateform" name="leaveContact">
-							<div id="sendmessage">
-								<div class="alert alert-info marginbot35">
-								  <button type="button" class="close" data-dismiss="alert">&times;</button>
-								  <strong>Your message has been sent. Thank you!</strong><br />
-								  Ut augue minim iuvaret eos, mei falli timeam ceteros ut. Qui et choro ubique denique, vim ei accumsan deseruisse argumentum.
-								</div>							
-							</div>								
-							<ul class="listForm">
-								<li>
-									<label>Your name <span>&#40; Required &#41;</span></label>
-									<input class="form-control" type="text" name="name" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />									
-									<div class="validation"></div>
-								</li>
-								<li>
-									<label>Your email <span>&#40; Required &#41;</span></label>
-									<input class="form-control" type="text" name="email" data-rule="email" data-msg="Please enter a valid email" />										
-									<div class="validation"></div>
-								</li>
-								<li>
-									<label>Your message <span>&#40; Required &#41;</span></label>
-									<textarea class="form-control" rows="9" name="message" data-rule="required" data-msg="Please write something for us"></textarea>												
-									<div class="validation"></div>
-								</li>
-								<li>
-									<input type="submit" value="Send message" class="btn btn-red btn-lg btn-block" name="Submit" />
-								</li>
-							</ul>
-						</form>
+						<h3 class="heading">Get in touch</h3>
+							<a href="#"><img src="img/testimoni/fanta.jpg" class="testimo-avatar" alt="" /></a>
+							<p>
+							Where would text appear?
+							</p>
 					</div>	
 					<div class="col-lg-5">
 						<div class="location">
 							<div class="location-address">
+								<h6>Contact us:</h6>
+								<p>
+									cimabat@orangemali.net <br />
+									Office: +223 20 24 66 57 <br />
+								</p>
 								<h6>Our location:</h6>
 								<p>
-									<strong>Cimabat</strong> <br />
 									Route du Koulikoro<br />
 									Boulkassoumbougou<br />
 									Bamako, Mali
+								</p>
+								<h6>Hours:</h6>
+								<p>
+									Monday - Saturday <br />
+									8am to 5pm 
 								</p>
 								<span class="location-arrow"></span>
 							</div>
@@ -332,37 +372,18 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<h5>Stay update with us</h5>
+					<h5>Follow us!</h5>
 					<p>
-					Nihil no ei eam esse nibh volumus. Falli verear cu qui, dicam tation omnesque ei nec.
+					See our new products and be the first to know about special offers!
 					</p>
-					<form>
-						<fieldset class="subscribe-form">
-							<input class="subscribe" type="text" placeholder="Enter your email address">
-							<button class="subscribe-button" type="button"></button>
-						</fieldset>	
-					</form>	
-					<a href="#" class="social-network"><i class="icon-facebook icon-rounded icon-128"></i></a>
-					<a href="#" class="social-network"><i class="icon-twitter icon-rounded icon-128"></i></a>
-					<a href="#" class="social-network"><i class="icon-google-plus icon-rounded icon-128"></i></a>
+					<a href="https://www.facebook.com/Cimabat-762131167248378/" class="social-network"><i class="icon-facebook icon-rounded icon-128"></i></a>
+					<a href="https://twitter.com/cimabat" class="social-network"><i class="icon-twitter icon-rounded icon-128"></i></a>
 					<a href="#" class="social-network"><i class="icon-linkedin icon-rounded icon-128"></i></a>
 				</div>
 			</div>
 		</div>		
 	</section>
 	<!-- End subscribe -->
-	
-	<!-- Start footer -->
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<span class="copyright">2013 &copy; Copyright <a href="www.99webpage.com">nce18cex</a>. All rights Reserved.</span>
-				</div>
-			</div>
-		</div>		
-	</footer>
-	<!-- End footer -->
 	
     <!-- JavaScript plugins (requires jQuery) -->
     <script src="js/jquery.js"></script>
@@ -386,10 +407,9 @@
     <script src="js/filter/jquery.isotope.min.js"></script>
 	<script src="js/filter/setting.js"></script>
 	
-	<!-- JavaScript cslider -->
-	<script src="js/cslider/modernizr.custom.28468.js"></script>	
-	<script src="js/cslider/jquery.cslider.js"></script>	
-	<script src="js/cslider/setting.js"></script>	
+	<!-- JavaScript flexslider -->
+	<script src="js/flexslider/jquery.flexslider.js"></script>	
+	<script src="js/flexslider/setting.js"></script>
 
 	<!-- prettyPhoto -->
 	<script src="js/prettyPhoto/jquery.prettyPhoto.js"></script>
