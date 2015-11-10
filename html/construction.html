@@ -12,7 +12,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="ico/favicon.png">
 
-    <title>Cimabat</title>
+    <title>Cimabat: Construction</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -54,11 +54,11 @@
 	<header>
 		<div class="navbar">
 			<div class="container">
-				<a class="navbar-brand" href="#about"><img src="img/mali_flag_med.png" alt="" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/mali_flag_med.png" alt="" /></a>
 				<div class="nav-collapse collapse navbar-responsive-collapse">
 					<ul class="nav navbar-nav">
-						<li><a href="#about">About</a></li>
-						<li><a href="#gallery">Product Gallery</a></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#gallery">Image Gallery</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div><!-- End nav-collapse -->
@@ -68,35 +68,63 @@
 	</header>
 	<!-- End header -->
 
-	<!-- Start about -->
-	<section id="about">
+	<!-- Start gallery -->
+	<section id="gallery">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-5">
-<!-- 						<h3 class="heading">Cimabat</h3> -->
-						<img src="img/logo.png" class="img-responsive" alt="CIMABAT">
-						<p>
-						<h5>Our products and services:</h5>
-						<ul>
-							<li>Kitchens</li>
-							<li>Bedrooms</li>
-							<li>Bathrooms</li>
-							<li>Roofing</li>
-							<li>Tiling</li>
-							<li>Doors</li>
-							<li>Grills</li>
-							<li>Construction</li>
-							<li><strong>Delivery service</strong></li>
+					<div class="col-lg-12">
+						<h3 class="heading">Construction</h3>
+						<div id="filter-bar">
+							<ul id="filters" class="option-set">
+								<li><a href="#" class="selected" data-filter=".all">All</a></li>
+								<li><a href="#" data-filter=".buildings">Buildings</a></li>
+								<li><a href="#" data-filter=".roofing">Roofing</a></li>
+							</ul>
+						</div>
+					</div>
+
+					  <ul id="gallery-list" class="clearfix">
+							<li class="item col-lg-4 all buildings">
+								<div class="image-wrapper">
+									<img src="img/gallery/construction/house.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Cement House 1</h6>
+									<a href="img/gallery/construction/house.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>
+							<li class="item col-lg-4 all buildings roofing">
+								<div class="image-wrapper">
+									<img src="img/gallery/construction/roofhouse.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Cement House 2</h6>
+									<a href="img/gallery/construction/roofhouse_big.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>
+							<li class="item col-lg-4 all buildings">
+								<div class="image-wrapper">
+									<img src="img/gallery/construction/woodenhouse.jpg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Wooden buildings</h6>
+									<a href="img/gallery/construction/woodenhouse.jpg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>
+							<li class="item col-lg-4 all roofing">
+								<div class="image-wrapper">
+									<img src="img/gallery/construction/roof.jpeg" class="img-responsive" alt=""/>
+								</div>
+								<div class="img-title">
+									<h6>Roofing</h6>
+									<a href="img/gallery/construction/roof_big.jpeg" data-pretty="prettyPhoto" class="zoom">Zoom</a>
+								</div>
+							</li>
 						</ul>
-						</p>
-					</div>
-					<div class="col-lg-7">
-						<img src="img/building.png" class="img-responsive" alt="" /><br><br><br><br><br>
-					</div>
 				</div>
 			</div>
 	</section>
-	<!-- End about -->
+	<!-- End gallery -->
 
 	<!-- Start action -->
 	<section id="action">
@@ -112,66 +140,7 @@
 		</div>
 	</section>
 	<!-- End action -->
-
-	<!-- Start gallery -->
-	<section id="gallery">
-			<div class="container">
-				<div class="row">
-					  <ul id="gallery-list" class="clearfix">
-							<li class="item col-lg-4 all construction">
-								<div class="image-wrapper">
-									<img src="img/gallery/construction.jpg" class="img-responsive" alt=""/>
-								</div>
-								<div class="img-title">
-									<a href="construction.html"><h6>Construction</h6></a>
-								</div>
-							</li>
-							<li class="item col-lg-4 all kitchens">
-								<div class="image-wrapper">
-									<img src="img/gallery/kitchens.jpg" class="img-responsive" alt=""/>
-								</div>
-								<div class="img-title">
-									<a href="kitchens.html"><h6>Kitchens</h6></a>
-								</div>
-							</li>
-							<li class="item col-lg-4 all">
-								<div class="image-wrapper">
-									<img src="img/gallery/bedrooms.jpg" class="img-responsive" alt=""/>
-								</div>
-								<div class="img-title">
-									<a href="bedrooms.html"><h6>Bedrooms</h6></a>
-								</div>
-							</li>
-							<li class="item col-lg-4 all ">
-								<div class="image-wrapper">
-									<img src="img/gallery/bathrooms.jpg" class="img-responsive" alt=""/>
-								</div>
-								<div class="img-title">
-									<a href="bathrooms.html"><h6>Bathrooms</h6></a>
-								</div>
-							</li>
-							<li class="item col-lg-4 all ">
-								<div class="image-wrapper">
-									<img src="img/gallery/door.jpg" class="img-responsive" alt=""/>
-								</div>
-								<div class="img-title">
-									<h6>Doors</h6>
-								</div>
-							</li>
-							<li class="item col-lg-4 all ">
-								<div class="image-wrapper">
-									<img src="img/gallery/grill.jpeg" class="img-responsive" alt=""/>
-								</div>
-								<div class="img-title">
-									<h6>Grills</h6>
-								</div>
-							</li>
-						</ul>
-				</div>
-			</div>
-	</section>
-	<!-- End gallery -->
-
+	
 	<!-- Start contact -->
 	<section id="contact">
 			<div class="container">
