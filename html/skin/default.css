@@ -23,7 +23,7 @@ CSS structure
 Color
 ================================================== */
 
-a, a:hover, .color, .navbar-nav > li > a:hover, .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus, 
+a, a:hover, .color, .navbar-nav > li > a:hover, .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus,
 .nav li a:hover, .nav li a.selected, .nav li a.active, #filter-bar ul#filters li a.selected, #filter-bar ul#filters li a:hover, .social-network:hover i{
 	color:#1fb4da;
 }
@@ -39,11 +39,12 @@ Background color
 Background image
 ================================================== */
 .home-contain{
-	background:url(img/blue-bg.png) repeat 0 0;	
+	background:url(img/blue-bg.png) repeat 0 0;
 }
 
 #about{
-	background:url(img/pattern1.png) repeat top left, url(img/green-bg.png) repeat top left;
+	/*background:url(img/pattern1.png) repeat top left, url(img/green-bg.png) repeat top left;*/
+	background-color: #359453;
 }
 
 #feature{
@@ -51,7 +52,8 @@ Background image
 }
 
 #gallery{
-	background:url(img/pattern1.png) repeat top left, url(img/green-bg.png) repeat top left;
+	/*background:url(img/pattern1.png) repeat top left, url(img/green-bg.png) repeat top left;*/
+	background-color: #359453;
 }
 
 #pricing{
@@ -68,7 +70,7 @@ Background image
 }
 
 #action{
-	background:#472546 url(img/pattern2.png) repeat 0 0;
+	background:#FFD42B url(img/pattern2.png) repeat 0 0;
 }
 
 #inner-head{
@@ -82,7 +84,7 @@ Background image
 .error{
 	background:url(img/blue-bg.png) repeat 0 0;
 }
-	
+
 /*
 Border color
 ================================================== */
@@ -99,7 +101,7 @@ Shadow color
 	background:#fff;
 	-webkit-box-shadow: 15px 15px 0 #1c98b9;
 	   -moz-box-shadow: 15px 15px 0 #1c98b9;
-	        box-shadow: 15px 15px 0 #1c98b9;	
+	        box-shadow: 15px 15px 0 #1c98b9;
 }
 
 .video-wrapper{
@@ -117,13 +119,13 @@ Shadow color
 .testimo-avatar{
 	-webkit-box-shadow: 5px 5px 0 #156353;
 	   -moz-box-shadow: 5px 5px 0 #156353;
-	        box-shadow: 5px 5px 0 #156353;	
+	        box-shadow: 5px 5px 0 #156353;
 }
 
 ul.listForm .form-control{
 	-webkit-box-shadow: 8px 8px 0 #2699b8;
 	   -moz-box-shadow: 8px 8px 0 #2699b8;
-	        box-shadow: 8px 8px 0 #2699b8;		
+	        box-shadow: 8px 8px 0 #2699b8;
 }
 
 .comment-wrapper{
@@ -133,5 +135,5 @@ ul.listForm .form-control{
 }
 
 .error h2{
-	text-shadow: 15px 15px 0 #1c98b9;	
+	text-shadow: 15px 15px 0 #1c98b9;
 }
